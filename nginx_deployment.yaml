@@ -36,6 +36,6 @@ spec:
         - name: config
           mountPath: /etc/nginx/conf.d
         ports:
-        - containerPort: 8080
+        - containerPort: 80
           name: http
           protocol: TCP
